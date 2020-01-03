@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+</head>
+<body>
+    <script>
+    var Courses = [];
+    for (var i=0;i<5;i++){
+    var a = prompt("enter ay courses")
+    //prompt("Enter courses:",Courses.push());
+    Courses.push(a)
+    }
+      console.log("Courses: ",Courses);
+    for (var j=0;j<5;j++){
+
+        var b  = prompt(Courses[j], j);
+        Courses[j] = b;
+    }
+    alert("Courses: ",Courses);
+</script>
+</body>
+</html>
